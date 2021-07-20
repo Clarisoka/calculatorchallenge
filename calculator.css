@@ -1,0 +1,85 @@
+h1{
+    color:hsl(183, 100%, 15%);
+    font-weight: 700;
+}
+
+p{
+    color:hsl(184, 14%, 56%);
+    font-weight: 700;
+    
+}
+
+.boxcontainer{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.boxcontainer1{
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+}
+
+
+.boxcontainer2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background: hsl(183, 100%, 15%);
+    border-radius: 10px;
+  
+}
+
+::placeholder{
+    color: hsl(184, 14%, 56%);
+    font-family: monospace;
+}
+
+
+::-webkit-input-placeholder{
+    color: hsl(183, 100%, 15%);
+}
+
+.btncontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    
+    /*align-items: center;
+    align-content: space-between;*/
+   
+}
+
+.btn{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 2px;
+    width: auto;
+    height: 20px;
+        
+    }
+
+    
+.btn:focus{
+    background-color: hsl(173, 61%, 77%);
+
+}
+
+
+body{
+    background-color: hsl(185, 41%, 84%);
+    font-family: monospace;
+}
