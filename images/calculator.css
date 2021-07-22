@@ -1,0 +1,113 @@
+h1{
+    color:hsl(183, 100%, 15%);
+    font-weight: 700;
+}
+
+p{
+    color:hsl(184, 14%, 56%);
+    font-weight: 700;
+    
+}
+
+.boxcontainer{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.boxcontainer1{
+    background-color: white;
+    border-radius: 1em;
+    margin-top: 7em;
+    display: flex;
+     
+}
+
+
+.boxcontainer2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: hsl(183, 100%, 15%);
+    border-radius: 1em;
+}
+
+.placeholder-money{
+    background-image: url(./icon-dollar.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+
+}
+
+.placeholder-person{
+    background-image: url(./icon-person.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+::placeholder{
+    color: hsl(184, 14%, 56%);
+    font-family: monospace;
+    outline: none;
+    border-radius: 0.2em;
+    text-align: right;
+}
+
+
+::-webkit-input-placeholder{
+    color: hsl(183, 100%, 15%);
+    border-radius: 0.2em;
+    text-align: right;
+}
+
+:-moz-placeholder {
+    text-align: right;
+  }
+
+
+
+
+.btncontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    
+    /*align-items: center;
+    align-content: space-between;*/
+   
+}
+
+.btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    padding: 1em 2em;
+    margin: 0 0.3em;
+    width: auto;
+    height: 20px;
+    font-family: monospace;
+    font-weight: 700;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;   
+    
+    }
+
+    
+.btn:focus{
+    background-color: hsl(173, 61%, 77%);
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(185, 41%, 84%);
+    font-family: monospace;
+}
